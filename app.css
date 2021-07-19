@@ -133,6 +133,22 @@ h2 {
     margin-right: 2rem;
 }
 
+@media (max-width: 479px) {
+    .icons {
+        display: none;
+    }
+}
+
+hr {
+    margin-bottom: 4rem;
+}
+
+@media (min-width: 480px) {
+    hr {
+        display: none;
+    }
+}
+
 .feature-points {
     display: flex;
     align-items: center;
