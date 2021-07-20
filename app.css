@@ -157,6 +157,7 @@ h2 {
     display: block;
     font-size: 1.8rem;
     text-align: center;
+    line-height: 3.5rem;
 }
 
 .icons {
@@ -204,7 +205,8 @@ hr {
 /* ==================== FORM ==================== */
 
 #form-section {
-    margin: 1rem auto;
+    margin: 0 auto;
+    box-shadow: 0px 2px 2px black;
 }
 
 #form-flex {
@@ -234,7 +236,7 @@ input[type="email"] {
 
 #submit {
     width: 150px;
-    margin: 4rem auto;
+    margin: 3rem auto 0rem;
     display: block;
     padding: 1rem;
     border: none;
@@ -245,6 +247,24 @@ input[type="email"] {
 
 #submit:hover {
     background: linear-gradient(180deg, rgba(227, 110, 13, .5) 0%, rgba(169, 35, 26, .5) 84%);
+}
+
+/* ==================== GET IN THE GAME ==================== */
+
+#get-in-game {
+    background-color: white;
+    margin: 0;
+    padding: 0 2rem;
+}
+
+#game-header {
+    margin: -4rem auto 4rem;
+    padding-top: 8rem;
+}
+
+#get-in-game>p {
+    text-align: justify;
+    padding-bottom: 4rem;
 }
 
 /* #E36E0D
