@@ -130,6 +130,7 @@ h1 {
     font-size: 1.8rem;
     margin: 0 2rem 3rem;
     text-align: center;
+    line-height: 3rem;
 }
 
 video {
@@ -157,7 +158,7 @@ h2 {
     display: block;
     font-size: 1.8rem;
     text-align: center;
-    line-height: 3.5rem;
+    line-height: 3rem;
 }
 
 .icons {
@@ -265,6 +266,60 @@ input[type="email"] {
 #get-in-game>p {
     text-align: justify;
     padding-bottom: 4rem;
+}
+
+/* ==================== PRICING ==================== */
+
+.price-card {
+    background-color: white;
+    margin: 2rem auto 3rem;
+    max-width: 350px;
+}
+
+#pricing>h2 {
+    padding-bottom: 2rem;
+}
+
+.card-header {
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem;
+    background: linear-gradient(180deg, rgba(227, 110, 13, 1) 0%, rgba(169, 35, 26, 1) 84%);
+}
+
+ul {
+    text-align: center;
+    font-size: 1.8rem;
+    margin: 3rem;
+}
+
+li {
+    margin-bottom: 2rem;
+}
+
+.cost {
+    font-size: 2rem;
+}
+
+.select-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.select {
+    font-size: 1.8rem;
+    width: 50%;
+    margin: 0 auto 2rem;
+    padding: 1rem;
+    border: none;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.select:hover {
+    background-color: rgba(227, 110, 13, 1);
+    color: white;
 }
 
 /* #E36E0D
