@@ -313,6 +313,7 @@ li {
     margin: 0 auto 2rem;
     padding: 1rem;
     border: none;
+    background-color: rgb(165, 165, 165);
     transition: all .5s;
     cursor: pointer;
 }
