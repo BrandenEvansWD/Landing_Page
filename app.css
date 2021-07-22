@@ -4,6 +4,7 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     background-color: rgb(53, 53, 53);
+    font-family: 'Roboto', sans-serif;
 }
 
 *, *:before, *:after {
@@ -152,6 +153,7 @@ h2 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    font-weight: 700;
 }
 
 .content-paragraph {
@@ -272,7 +274,7 @@ input[type="email"] {
 
 .price-card {
     background-color: white;
-    margin: 2rem auto 3rem;
+    margin: 2rem auto 6rem;
     max-width: 350px;
 }
 
@@ -321,6 +323,27 @@ li {
 .select:hover {
     background-color: rgba(227, 110, 13, 1);
     color: white;
+}
+
+.select:active {
+    background-color: rgba(227, 110, 13, 1);
+    color: white;
+}
+
+footer {
+    background-color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer>div>p {
+    color: black;
+    font-size: 1.5rem;
+}
+
+footer>div>p>a {
+    color: rgba(227, 110, 13, .5);
+    font-style: italic;
 }
 
 /* #E36E0D
