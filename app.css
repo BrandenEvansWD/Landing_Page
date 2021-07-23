@@ -133,7 +133,10 @@ h1 {
 }
 
 video {
-    width: 100%;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
 }
 
 /* ==================== FEATURES ==================== */
@@ -295,21 +298,31 @@ input[type="email"] {
 
 /* ==================== PRICING ==================== */
 
+#pricing {
+    padding: 0 10rem;
+}
+
 .price-card {
     background-color: white;
-    margin: 2rem auto 4rem;
+    margin: 2rem 2rem 4rem;
     max-width: 350px;
 }
 
 @media (min-width: 1100px) {
     .price-container {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 }
 
 #pricing>h2 {
     padding-bottom: 2rem;
+}
+
+.price-img {
+    display: block;
+    width: 300px;
+    margin: 2rem auto;
 }
 
 .card-header {
