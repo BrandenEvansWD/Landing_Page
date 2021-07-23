@@ -297,7 +297,7 @@ input[type="email"] {
 
 .price-card {
     background-color: white;
-    margin: 2rem auto 6rem;
+    margin: 2rem auto 4rem;
     max-width: 350px;
 }
 
@@ -361,19 +361,21 @@ li {
 }
 
 footer {
-    background-color: white;
-    padding: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
+    background-color: rgb(53, 53, 53);
 }
 
 footer>div>p {
-    color: black;
+    color: white;
     font-size: 1.5rem;
+    line-height: 3rem;
 }
 
 footer>div>p>a {
-    color: rgba(227, 110, 13, .5);
+    color: rgba(227, 110, 13, 1);
     font-style: italic;
+    font-weight: 700;
 }
 
 /* #E36E0D
