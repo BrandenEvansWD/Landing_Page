@@ -21,7 +21,32 @@ ol, ul {
     list-style: none;
 }
 
+:root {
+    scroll-behavior: smooth
+}
+
 /* ==================== HERO / NAV ==================== */
+
+#large-head {
+    background-image: url("https://brandenevanswd.github.io/Landing_Page/images/Ryzen_5950X.png");
+    width: 100%;
+    height: 36vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+@media (min-width: 522px) {
+    #large-head {
+        height: 50%;
+    }
+}
+
+@media (min-width: 600px) {
+    #large-head {
+        height: 46vh;
+    }
+}
 
 #main-img {
     width: 100%;
